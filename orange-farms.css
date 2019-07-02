@@ -1,0 +1,106 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 5px;
+  }
+
+#content1{
+    box-sizing: border-box;
+    flex-basis: 25%;
+  }
+  
+#content2{
+    box-sizing: border-box;
+    flex-basis: 60%;
+  }
+
+
+#account{
+position: absolute;
+width: 215px;
+height: 24px;
+left: 885px;
+top: 65px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 134.3%;
+/* or 24px */
+color: #6F6F6F;
+}
+
+#sign-up{
+    position: absolute;
+    width: 68px;
+    height: 24px;
+    left: 1107px;
+    top: 65px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 134.3%;
+    /* or 24px */
+    text-decoration-line: underline;
+    
+    color: rgba(1, 215, 125, 0.99);
+}
+
+#sign-in{
+    position: absolute;
+width: 93px;
+height: 38px;
+left: 645px;
+top: 176px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 134.3%;
+/* identical to box height, or 38px */
+
+color: #000000;
+}
+
+#details{
+position: absolute;
+width: 287px;
+height: 19px;
+left: 645px;
+top: 221px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 134.3%;
+/* identical to box height, or 19px */
+color: #6F6F6F;
+
+}
+
+#form{
+    position: absolute;
+width: 386px;
+height: 246px;
+left: 649px;
+top: 287px;
+}
+
+#email-label{
+    
+}
+#email-input{
+    position: absolute;
+width: 385px;
+height: 48px;
+left: 650px;
+top: 309px;
+
+background: #FFFFFF;
+border: 1px solid #E5E5E5;
+box-sizing: border-box;
+}
