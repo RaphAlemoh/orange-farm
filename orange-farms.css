@@ -1,98 +1,100 @@
-.wrapper {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin: 5px;
-  }
-
-#content1{
-    box-sizing: border-box;
-    flex-basis: 25%;
-  }
-  
-#content2{
-    box-sizing: border-box;
-    flex-basis: 60%;
-  }
-
-
-#account{
-position: absolute;
-width: 215px;
-height: 24px;
-left: 885px;
-top: 65px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 134.3%;
-/* or 24px */
-color: #6F6F6F;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#sign-up{
-    position: absolute;
-    width: 68px;
-    height: 24px;
-    left: 1107px;
-    top: 65px;
-    
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 134.3%;
-    /* or 24px */
-    text-decoration-line: underline;
-    
-    color: rgba(1, 215, 125, 0.99);
+.header {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: tomato;
 }
 
-#sign-in{
-    position: absolute;
-width: 93px;
-height: 38px;
-left: 645px;
-top: 176px;
-
-font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-font-size: 28px;
-line-height: 134.3%;
-/* identical to box height, or 38px */
-
-color: #000000;
+.vp {
+  display: flex;
+  height: 100%;
+  width: 33.3%;
+  align-items: flex-end;
+  background-image: url(orange.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-#details{
-position: absolute;
-width: 287px;
-height: 19px;
-left: 645px;
-top: 221px;
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 134.3%;
-/* identical to box height, or 19px */
-color: #6F6F6F;
+.gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(360deg, rgba(14, 41, 30, 0.99) 24.44%, rgba(20, 28, 46, 0) 130.83%);
+}
+
+.value-prop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  position: relative;
+  z-index: 9;
+  padding: 20px;
+}
+
+.value-prop p {
+  color: white;
+  width: 70%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.start{
+  text-decoration: underline;
+  color: green;
+  font-style: normal;
+}
+
+
+.authentication {
+  display: flex;
+  height: 100vh;
+  width: 66.7%;
+  background:whitesmoke;
+}
+
+.account{
+
+
 
 }
 
-#form{
-    position: absolute;
-width: 386px;
-height: 246px;
-left: 649px;
-top: 287px;
+
+.orange-form{
+  position: absolute;
+  width: 386px;
+  height: 246px;
+  left: 649px;
+  top: 287px;
 }
 
-#email-label{
-    
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
-#email-input{
 
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
