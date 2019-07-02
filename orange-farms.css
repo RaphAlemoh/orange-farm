@@ -94,13 +94,5 @@ top: 287px;
     
 }
 #email-input{
-    position: absolute;
-width: 385px;
-height: 48px;
-left: 650px;
-top: 309px;
 
-background: #FFFFFF;
-border: 1px solid #E5E5E5;
-box-sizing: border-box;
 }
