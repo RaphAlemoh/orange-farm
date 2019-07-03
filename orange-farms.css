@@ -63,19 +63,63 @@
   background:whitesmoke;
 }
 
-.account{
-
-
-
+#account{
+  position: absolute;
+  /* width: 215px; */
+  height: 24px;
+  left: 805px;
+  top: 65px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 134.3%;
+  /* or 24px */
+  color: #6F6F6F;
 }
 
+#sign-up{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 134.3%;
+/* or 24px */
+text-decoration-line: underline;
+color: rgba(1, 215, 125, 0.99);
+}
 
-.orange-form{
+#orange-form{
   position: absolute;
   width: 386px;
   height: 246px;
   left: 649px;
-  top: 287px;
+  top: 237px;
+}
+#sign-in{
+  font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+/* line-height: 134.3%; */
+/* identical to box height, or 38px */
+color: #000000;
+}
+
+#details{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 134.3%;
+/* identical to box height, or 19px */
+color: #6F6F6F;
+}
+
+input[type=password]{
+  background-image: url('ios-eye.png');
+  background-position: 359px 10px; 
+  background-repeat: no-repeat;
 }
 
 input[type=email], input[type=password] {
@@ -83,18 +127,55 @@ input[type=email], input[type=password] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  border: 1px rgb(199, 196, 196) solid;
 }
 
 
 .button {
   background-color: #4CAF50;
   border: none;
+  width: 100%;
   color: white;
-  padding: 15px 32px;
+  padding: 12px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 8px 0px;
   cursor: pointer;
+}
+
+#pword-section{
+float: right;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 134.3%;
+/* identical to box height, or 19px */
+color: #6F6F6F;
+}
+
+#recover{
+  font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 134.3%;
+/* identical to box height, or 19px */
+text-decoration-line: underline;
+color: rgba(1, 215, 125, 0.99);
+}
+
+/* sign up styling */
+.vp-sign-up {
+  display: flex;
+  height: 100%;
+  width: 33.3%;
+  align-items: flex-end;
+  background-image: url(orange2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
